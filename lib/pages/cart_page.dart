@@ -45,16 +45,19 @@ class _CartPageState extends State<CartPage> {
                       return DrinkTile(
                         drink: drink,
                         onTap: () => removeFromCart(drink),
+                        // ignore: prefer_const_constructors
                         trailing: Icon(Icons.delete),
                       );
                     }),
               ),
               //pay button
               Padding(
-                padding: const EdgeInsets.only(bottom: 25.0),
+                padding: const EdgeInsets.all(50.0),
                 child: MaterialButton(
+                  // ignore: prefer_const_constructors, sort_child_properties_last
                   child: Text(
                     'PAY',
+                    // ignore: prefer_const_constructors
                     style: TextStyle(color: Colors.white),
                   ),
                   color: Colors.orange[200],

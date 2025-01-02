@@ -5,6 +5,7 @@ class Drink {
   final String price;
   final String ImagePath;
 
+  // ignore: prefer_typing_uninitialized_variables
   static var length;
 
   Drink({required this.name, 

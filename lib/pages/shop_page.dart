@@ -35,9 +35,14 @@ class _ShopPageState extends State<ShopPage> {
           child: Column(
             children: [
               //heading
+              // ignore: prefer_const_constructors
               Text(
                 "YAMARI",
-                style: TextStyle(fontSize: 40),
+                // ignore: prefer_const_constructors
+                style: TextStyle(
+                  fontSize: 40,
+                  fontFamily: 'Shrikhand'
+                  ),
               ),
 
               const SizedBox(
@@ -56,6 +61,7 @@ class _ShopPageState extends State<ShopPage> {
                     return DrinkTile(
                       drink: individualDrink,
                       onTap: () => goToOrderPage(individualDrink),
+                      // ignore: prefer_const_constructors
                       trailing: Icon(Icons.arrow_forward),
                     );
                   },

@@ -56,6 +56,7 @@ class _OrderPageState extends State<OrderPage> {
       body: Column(
         children: [
           //drink image
+          // ignore: sized_box_for_whitespace
           Container(
             width: 500,
             height: 450.0,
