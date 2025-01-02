@@ -92,7 +92,7 @@ flutter:
   fonts:
     - family: Shrikhand
       fonts:
-        - asset: fonts/Shrikhand-Regular
+        - asset: fonts/Shrikhand-Regular.ttf
      # style: italic
   #   - family: Trajan Pro
   #     fonts:
