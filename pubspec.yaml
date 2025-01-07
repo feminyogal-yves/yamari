@@ -89,10 +89,10 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # google_fonts:
-  fonts:
-    - family: Shrikhand
-      fonts:
-        - asset: fonts/Shrikhand-Regular.ttf
+  # fonts:
+   # - family: Shrikhand
+     # fonts:
+       # - asset: fonts/Shrikhand-Regular
      # style: italic
   #   - family: Trajan Pro
   #     fonts:
